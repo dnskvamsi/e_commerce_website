@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>CheckOut</title>
+    <link href="checkout-style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h3><a href="Home.html">SHOP</a>
+            </h3>
+        </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="main_content">
+            <div style="font-size: medium; font-weight:normal;">Checkout</div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+
+    <section class="form_section">
+        <form>
+            <div class="form">
+                <div class="acc_info">
+                    <h1>Account Information</h1>
+                    <div class="item1_container">
+                        <div class="email">
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" placeholder="Email">
+                        </div>
+                        <div class="phone_no">
+                            <label for="phone">Last Name</label><br>
+                            <input type="number" id="phone" placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+                <div class="ship_info">
+                    <h1>Shipping Information</h1>
+                    <div class="item2_container">
+                        <div class="shipp_addr">
+                            <label for="address">Address</label><br>
+                            <input type="text" id="address" placeholder="Address">
+                        </div>
+                        <div class="city">
+                            <label for="city_na">City</label><br>
+                            <input type="text" id="city_na" placeholder="City">
+                        </div>
+                        <div class="state_parent">
+                            <div class="state">
+                                <label for="sname">State/Province</label><br>
+                                <input type="text" id="sname" placeholder="State/Province">
+                            </div>
+                            <div class="zipcode">
+                                <label for="zip">Zip Code</label><br>
+                                <input type="number" placeholder="523456" id="zip">
+                            </div>
+                        </div>
+                        <div class="Country">
+                            <label for="C_name">Country</label><br>
+                            <select id="C_name">
+                                <option value="USA">United States</option>
+                                <option value="Uk">United Kingdom</option>
+                                <option value="India">India</option>
+                                <option value="Europe">Europe</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="p_info">
+                    <h1>Payment Method</h1>
+                    <div class="credit_name">
+                        <label for="credit_name"> Credit Card Holder Name</label><br>
+                        <input id="cnumber" placeholder="CREDIT CARD HOLDER NAME" type="number">
+                    </div>
+                    <div class="credit_container">
+                        <label for="cnumber"> CREDIT CARD NUMBER</label><br>
+                        <input id="cnumber" placeholder="CREDIT CARD NUMBER" type="number">
+                    </div>
+                    <div class="cinfo_container">
+                        <div class="expiration_parent">
+                            <div class="month">
+                                <label>Expiration</label><br>
+                                <input type="number" placeholder="MM">
+                            </div>
+                            <div class="year">
+                                <label></label><br>
+                                <input type="number" placeholder="YYYY">
+                            </div>
+                        </div>
+                        <div class="scode">
+                            <label>Security code</label><br>
+                            <input type="number" placeholder="CVV">
+                        </div>
+                    </div>
+                    <div class="order_summary">
+                        <h1>Order Summary</h1>
+                        <div class="item_summary">
+                            <div>Dawson Glasses</div>
+                            <div style="text-align: right;">$50</div>
+                        </div>
+                        <div class="total">
+                            <div>Total</div>
+                            <div style="text-align: right;">$50</div>
+                        </div>
+                        <div class="button">
+                            <button>Place Order</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

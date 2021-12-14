@@ -28,7 +28,7 @@ section.content{
 }
 
 header .hamburger{
-    display: none;
+    /* display: none; */
     width: fit-content;
     position: absolute;
     left: 40px;
@@ -40,6 +40,9 @@ header .hamburger div {
     height: 3px;
     background-color: black;
     margin: 5px 0;
+}
+nav{
+    display: none;
 }
 
 /* Single item main section */

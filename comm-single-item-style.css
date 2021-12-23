@@ -1,272 +1,292 @@
 /* Header Desktop Styling */
 
-header{
-    text-align: center;
-    margin-bottom: 20px;
+header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-header a{
-    text-decoration: none;
-    color:black;
-    letter-spacing: 2px;
-}
-nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin:auto;
-    width: 70%;
+header a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
 }
 
-header .cart_icon{
-    position: absolute;
-    top:30px;
-    right:30px;
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 70%;
 }
 
-section.content{
-    text-align: center;
+header .cart-icon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
 
-header .hamburger{
-    /* display: none; */
-    width: fit-content;
-    position: absolute;
-    left: 40px;
-    top:30px;
-  }
+section.content {
+  text-align: center;
+}
+
+header .hamburger {
+  /* display: none; */
+  width: fit-content;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
 header .hamburger div {
-    display: block;
-    width: 27px;
-    height: 3px;
-    background-color: black;
-    margin: 5px 0;
+  display: block;
+  width: 27px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
 }
-nav{
-    display: none;
+
+nav {
+  display: none;
 }
 
 /* Single item main section */
 
-section img{
-    width: 100%;
-    height: 100%;
+section img {
+  width: 100%;
+  height: 100%;
 }
 
-section.main .container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 5vw;
-    padding:100px 30px;
+section.main .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 5vw;
+  padding: 100px 30px;
 }
 
-section.main .item_description{
-    margin: auto;
-    text-align: left;
+section.main .item-description {
+  margin: auto;
+  text-align: left;
 }
 
-section.main button{
-    background-color: #00588d;
-    color: white;
-    padding: 1em 2em;
-    width: 80%;
-    margin-bottom: 1rem;
+section.main button {
+  background-color: #00588d;
+  color: white;
+  padding: 1em 2em;
+  width: 80%;
+  margin-bottom: 1rem;
 }
 
-section.main h1{
-    font-weight: 300;
-    font-size: 30px;
+section.main h1 {
+  font-weight: 300;
+  font-size: 30px;
 }
-section.main h2{
-    font-family: utopia-std,times new roman,serif;
-    font-style: italic;
-    font-weight: lighter;
-    color: lightslategray;
+
+section.main h2 {
+  font-family: utopia-std, times new roman, serif;
+  font-style: italic;
+  font-weight: lighter;
+  color: lightslategray;
 }
 
 /* Info section styling */
-section.info .prod_des{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin:50px 20px;
-    
-    padding:100px 30px;
+section.info .prod-des {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 20px;
+
+  padding: 100px 30px;
 }
 
-section.info .item1{
-    margin: auto;
-    text-align: center;
-    
-}
-section.info .list{
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
-    color: #677079;
+section.info .item1 {
+  margin: auto;
+  text-align: center;
 }
 
-section.info .item1 h2{
-    font-family: utopia-std-display;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    text-align: left;
-    color: #414B56;
+section.info .list {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  color: #677079;
+}
+
+section.info .item1 h2 {
+  font-family: utopia-std-display;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #414b56;
 }
 
 /*  wide section styling*/
 
-section.wide .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10vw;
-    padding:100px 30px;
+section.wide .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10vw;
+  padding: 100px 30px;
 }
 
-section.wide .content{
-    margin: auto;
+section.wide .content {
+  margin: auto;
 }
 
-section.wide .content h1{
-    font-family: utopia-std-display;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    text-align: left;
-    color: #414B56;
+section.wide .content h1 {
+  font-family: utopia-std-display;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #414b56;
 }
 
-section.wide .content p{
-    font-family: utopia-std-display;
-    font-weight:normal;
-    font-style: normal;
-    font-size: 20px;
-    text-align: left;
-    color: #677079;
+section.wide .content p {
+  font-family: utopia-std-display;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #677079;
 }
 
-section.wide button{
-    width: 50%;
-    padding: 1em 2em;
+section.wide button {
+  width: 50%;
+  padding: 1em 2em;
 }
 
-section.wide a{
-    text-decoration: none;
+section.wide a {
+  text-decoration: none;
 }
 
-div.add{
+div.add {
+  text-align: center;
+}
+
+div.add button {
+  margin: auto;
+  font-size: 15px;
+  padding: 1em 2em;
+  background-color: #00588d;
+  color: white;
+}
+
+/* Prescription and lens type  section styling*/
+
+section.pres .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 5vw;
+  padding: 100px 30px;
+}
+
+section.pres .item1,
+section.pres .item2,
+section.pres .item3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.pres .heading h2 {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #414b56;
+}
+
+section.pres .item-list ul {
+  margin-top: 0px;
+  font-size: 16px;
+  color: #677079;
+}
+
+section.pres .item-list li {
+  margin-bottom: 12px;
+}
+
+section.pres .list {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+section.pres h3 {
+  color: #677079;
+}
+
+section.pres h1 {
+  font-weight: 300;
+  color: #677079;
+  font-size: 30px;
+}
+
+/* Tablet Styling */
+
+@media screen and (max-width: 800px) {
+  section.main .container {
+    grid-template-columns: none;
+    column-gap: 5vw;
+    row-gap: 5vh;
+    padding: 100px 30px;
+  }
+
+  section.main .item-description {
     text-align: center;
+  }
+
+  section.info .prod-des {
+    grid-template-columns: none;
+  }
+
+  section.info .list {
+    margin: unset;
+    text-align: left;
+  }
+
+  section.wide .container {
+    grid-template-columns: none;
+    row-gap: 5vh;
+  }
+
+  section.wide .content {
+    text-align: center;
+  }
+
+  section.wide .content h1 {
+    text-align: center;
+  }
+
+  section.wide .content p {
+    text-align: center;
+  }
+
+  section.wide button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  section.pres .container {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+    row-gap: 5vh;
+  }
+
+  section.pres .pres-type {
+    grid-row: 2 / span 1;
+  }
 }
-div.add button{
-    margin: auto;
-    font-size: 15px;
-    padding: 1em 2em;
-    background-color: #00588d;
-    color: white;
-}
 
- /* Prescription and lens type  section styling*/
+/* Mobile Styling */
 
- section.pres .container{
-     display: grid;
-     grid-template-columns: 1fr 2fr;
-     column-gap: 5vw;
-     padding:100px 30px;
- }
- section.pres .item1,section.pres .item2,section.pres .item3{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
- }
+@media screen and (max-width: 500px) {
+  /* Header Mobile Styling */
+  header .hamburger {
+    display: block;
+  }
 
- section.pres .heading h2{
-     margin-top: 0px;
-     font-size: 18px;
-     font-weight: 600;
-     color: #414b56;
- }
- section.pres .item_list ul{
-     margin-top: 0px;
-     font-size: 16px;
-     color: #677079;
- }
- section.pres .item_list li{
-    margin-bottom: 12px;
- }
- section.pres .list{
-     display: grid;
-     grid-template-rows: auto auto auto;
- }
+  header h3 {
+    margin-top: 30px;
+  }
 
- section.pres h3{
-    color: #677079;
- }
-
- section.pres h1{
-     font-weight: 300;
-     color: #677079;
-     font-size:30px;
- }
-
- /* Tablet Styling */
-
- @media screen and (max-width:800px) {
-    section.main .container {
-        grid-template-columns: none;
-        column-gap: 5vw;
-        row-gap: 5vh;
-        padding: 100px 30px;
-    }
-    section.main .item_description{
-        text-align: center;
-    }
-    section.info .prod_des{
-        grid-template-columns: none;
-    }
-    section.info .list{
-        margin: unset;
-        text-align: left;
-    }
-    section.wide .container{
-        grid-template-columns: none;
-        row-gap: 5vh;
-    }
-    section.wide .content{
-        text-align: center;
-    }
-    section.wide .content h1{
-        text-align: center;
-    }
-    section.wide .content p {
-        text-align: center;
-    }
-    section.wide button{
-        display: block;
-        width:100%;
-        margin-bottom: 20px;
-    }
-    section.pres .container{
-        grid-template-columns: none;
-        grid-template-rows: auto auto;
-        row-gap: 5vh;
-    }
-    section.pres .pres_type{
-        grid-row: 2/span 1;
-    }
- }
-
-
- /* Mobile Styling */
-
-@media screen and (max-width:500px) {
-    
-    /* Header Mobile Styling */
-    header .hamburger{
-        display: block;
-    }
-    header h3{
-        margin-top: 30px;
-    }
-    nav{
-        visibility: hidden;
-    }
-    
+  nav {
+    visibility: hidden;
+  }
 }

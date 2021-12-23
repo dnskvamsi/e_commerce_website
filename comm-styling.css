@@ -1,147 +1,170 @@
 /* Header Desktop styling */
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-a{
-    text-decoration: none;
-    color:black;
-    letter-spacing: 2px;
+
+a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
 }
-span{
-    width:2px;
-    height:1px;
-    border: 2px solid green;
+
+span {
+  width: 2px;
+  height: 1px;
+  border: 2px solid green;
 }
-nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin:auto;
-    width: 70%;
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 70%;
 }
-header .cart_icon{
-    position: absolute;
-    top:30px;
-    right:30px;
+
+header .cart-icon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
-header .hamburger{
-    display: none;
-    width: fit-content;
-    position: absolute;
-    left: 40px;
-    top:30px;
-  }
+
+header .hamburger {
+  display: none;
+  width: fit-content;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
 header .hamburger div {
-    display: block;
-    width: 27px;
-    height: 3px;
-    background-color: black;
-    margin: 5px 0;
+  display: block;
+  width: 27px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
 }
 
 /* Main section Styling */
 
-
-section{
-    margin:20px 0px;
-}
-section img{
-    width: 100%;
-    height: 100%;
-}
-section.men_eye_g,section.men_sun_g,section.women_eye_g,section.women_sun_g{
-    position: relative;
-}
-section.men_eye_g .name,section.men_sun_g .name,section.women_eye_g .name,section.women_sun_g .name{
-    font-size: 12px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    line-height: 22px;
-    color: #414B56;
-    font-weight: 600;
+section {
+  margin: 20px 0px;
 }
 
-section.men_eye_g .heading,section.men_sun_g .heading,section.women_eye_g .heading,section.women_sun_g .heading{
-    font-size: 20px;
-    color: #414B56;
-    font-weight: 600;
+section img {
+  width: 100%;
+  height: 100%;
 }
 
-section.men_eye_g .img_text,section.men_sun_g .img_text,section.women_sun_g .img_text,section.women_eye_g .img_text{
-    width:40%;
-    position: absolute;
-    top:25%;
-    left:6%;
+section.men-eye-g,
+section.men-sun-g,
+section.women-eye-g,
+section.women-sun-g {
+  position: relative;
+}
+
+section.men-eye-g .name,
+section.men-sun-g .name,
+section.women-eye-g .name,
+section.women-sun-g .name {
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  line-height: 22px;
+  color: #414b56;
+  font-weight: 600;
+}
+
+section.men-eye-g .heading,
+section.men-sun-g .heading,
+section.women-eye-g .heading,
+section.women-sun-g .heading {
+  font-size: 20px;
+  color: #414b56;
+  font-weight: 600;
+}
+
+section.men-eye-g .img-text,
+section.men-sun-g .img-text,
+section.women-sun-g .img-text,
+section.women-eye-g .img-text {
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 6%;
 }
 
 /* Item's Section Styling */
 
-section.items .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5vw;
-    row-gap: 5vh;
+section.items .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5vw;
+  row-gap: 5vh;
 }
 
-section.items img{
-    width: 100%;
-    height: 100%;
-    
-}
-section.items .img_container{
-    display: grid;
+section.items img {
+  width: 100%;
+  height: 100%;
 }
 
-section.items .item_name{
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-    padding: 0.5em 1em;
-}
-section.items .item_price{
-    text-align: center;
-    font-weight: lighter;
-    color: #757575;
+section.items .img-container {
+  display: grid;
 }
 
+section.items .item-name {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  padding: 0.5em 1em;
+}
 
+section.items .item-price {
+  text-align: center;
+  font-weight: lighter;
+  color: #757575;
+}
 
 /* Table Styling */
 
-@media screen and (max-width:800px){
-    section.items .container{
-        grid-template-columns: 1fr 1fr;
-    }
+@media screen and (max-width: 800px) {
+  section.items .container {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    section.men_eye_g .img_text,section.men_sun_g .img_text,section.women_sun_g .img_text,section.women_eye_g .img_text{
-        position:unset;
-        width:50%;
-        text-align: center;
-        margin: auto;
-    }
-
+  section.men-eye-g .img-text,
+  section.men-sun-g .img-text,
+  section.women-sun-g .img-text,
+  section.women-eye-g .img-text {
+    position: unset;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 /* Mobile Styling */
 
-@media screen and (max-width:480px) {
-    /* Main section styling */
-    section img{
-        height: 30vh;
-    }
+@media screen and (max-width: 480px) {
+  /* Main section styling */
+  section img {
+    height: 30vh;
+  }
 
-    header .hamburger{
-        display: block;
-    }
-    nav{
-        display: none;
-    }
-    header h3{
-        margin-top: 30px;
-    }
-    section.items .container{
-        grid-template-columns: none;
-    }
+  header .hamburger {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header h3 {
+    margin-top: 30px;
+  }
+
+  section.items .container {
+    grid-template-columns: none;
+  }
 }
-
